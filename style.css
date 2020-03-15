@@ -67,33 +67,51 @@ section {
 }
 
 .answer {
-  /* max-height: 0; */
+  max-height: 0;
   overflow: hidden;
   position: relative;
   background: #212838;
   border-radius: .5rem;
   padding: 1rem;
-  /* font-size: 1.4rem;
-  color: rgba(255,255,255,0.6); */
+  transition: max-height 900ms ease-in-out;
+ 
 }
 
 .answer::before {
   content: '';
   position: absolute;
   width: .6rem;
-  height: 90%;
+  height: 100%;
   background-color: #3555a1;
   top: 50%;
   left: 0;
   transform: translateY(-50%); /*poitions blue left border*/
-  
 }
 
 
 .answer p {
-  
+  font-size: 1.4rem;
+  color: rgba(255,255,255,0.6);
+  padding: 1rem;
 }
 
+/* targets accordion item answer to reveal and hide answer */
+.accordion-item:target .answer {
+  max-height: 20rem;
+}
+
+
+.accordion-item:target .accordion-link .fas.fa-plus{
+  display: none;
+}
+
+.accordion-item:target .accordion-link .fas.fa-minus{
+  display: block;
+}
+
+.answer.active {
+  max-height: 20rem;
+}
 
 
 
