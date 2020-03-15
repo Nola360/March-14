@@ -93,6 +93,7 @@ section {
   font-size: 1.4rem;
   color: rgba(255,255,255,0.6);
   padding: 1rem;
+  line-height: 2rem;
 }
 
 /* targets accordion item answer to reveal and hide answer */
