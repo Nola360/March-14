@@ -113,8 +113,25 @@ section {
 .answer.active {
   max-height: 20rem;
 }
+.git {
+  color: rgb(86, 189, 77);
+}
 
+.html {
+  color: red;
+  /* text-decoration: none; */
+}
 
+.css {
+  color: rgb(0, 162, 255);
+}
 
+.js {
+  color: rgb(255, 238, 0);
+}
+
+.webdev {
+  color: rgb(0, 60, 255);
+}
 
 
