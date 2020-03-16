@@ -25,6 +25,12 @@ section {
   align-items: center;
 }
 
+.title {
+  background: #3c4053;
+  color: white;
+  text-align: center;
+  font-size: 6rem;
+}
 
 .container {
   width: 100%;
@@ -101,7 +107,6 @@ section {
   max-height: 20rem;
 }
 
-
 .accordion-item:target .accordion-link .fas.fa-plus{
   display: none;
 }
@@ -110,9 +115,9 @@ section {
   display: block;
 }
 
-.answer.active {
+/* .answer.active {
   max-height: 20rem;
-}
+} */
 .git {
   color: rgb(86, 189, 77);
 }
